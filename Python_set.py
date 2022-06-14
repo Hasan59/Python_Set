@@ -55,3 +55,48 @@ for x in thisset:
   thisset.discard("banana")
 
   print(thisset)
+
+  thisset = {"apple", "banana", "cherry"}
+
+  x = thisset.pop()
+
+  print(x)
+
+  print(thisset)
+
+  thisset = {"apple", "banana", "cherry"}
+
+  del thisset
+
+  print(thisset)
+
+  thisset = {"apple", "banana", "cherry"}
+
+  for x in thisset:
+      print(x)
+
+      set1 = {"a", "b", "c"}
+      set2 = {1, 2, 3}
+
+      set3 = set1.union(set2)
+      print(set3)
+
+      set1 = {"a", "b", "c"}
+      set2 = {1, 2, 3}
+
+      set1.update(set2)
+      print(set1)
+
+      x = {"apple", "banana", "cherry"}
+      y = {"google", "microsoft", "apple"}
+
+      x.intersection_update(y)
+
+      print(x)
+
+      x = {"apple", "banana", "cherry"}
+      y = {"google", "microsoft", "apple"}
+
+      z = x.intersection(y)
+
+      print(z)
